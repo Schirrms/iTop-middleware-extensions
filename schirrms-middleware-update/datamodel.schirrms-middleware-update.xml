@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
+  <constants>
+  </constants>
+  <classes>
+    <class id="Middleware" _delta="must_exist">
+      <fields>
+        <field id="portnumber" xsi:type="AttributeInteger" _delta="define">
+          <sql>portnumber</sql>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+        <field id="mid_user" xsi:type="AttributeString" _delta="define">
+          <sql>mid_user</sql>
+          <is_null_allowed>true</is_null_allowed>
+        </field>
+      </fields>
+      <presentation>
+        <details _delta="must_exist">
+          <items>
+            <item id="portnumber" _delta="define">
+              <rank>15</rank>
+            </item>
+            <item id="mid_user" _delta="define">
+              <rank>85</rank>
+            </item>
+          </items>
+        </details>
+      </presentation>
+    </class>
+  </classes>
+  <menus>
+  </menus>
+  <user_rights>
+    <groups>
+    </groups>
+    <profiles>
+    </profiles>
+  </user_rights>
+</itop_design>
