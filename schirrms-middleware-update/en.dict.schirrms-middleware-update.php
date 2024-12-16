@@ -8,7 +8,9 @@
 
 Dict::Add('EN US', 'English', 'English', array(
 	// Dictionary entries go here
-	'Class:Middleware/Attribute:portnumber' => 'Port',
-	'Class:Middleware/Attribute:mid_user' => 'User',
+	'Class:SoftwareInstance/Attribute:portnumber' => 'Port',
+	'Class:SoftwareInstance/Attribute:portnumber+' => 'Main listening network port',
+	'Class:SoftwareInstance/Attribute:mid_user' => 'User',
+	'Class:SoftwareInstance/Attribute:mid_user+' => 'User account running the process listening',
 ));
 ?>

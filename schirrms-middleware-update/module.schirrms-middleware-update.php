@@ -5,7 +5,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'schirrms-middleware-update/1.0.0',
+	'schirrms-middleware-update/1.1.0',
 	array(
 		// Identification
 		//
@@ -15,7 +15,7 @@ SetupWebPage::AddModule(
 		// Setup
 		//
 		'dependencies' => array(
-			'itop-config-mgmt/2.5.0'
+			'itop-config-mgmt/2.7.0'
 		),
 		'mandatory' => false,
 		'visible' => true,
